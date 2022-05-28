@@ -1,7 +1,9 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lang_save/app/logic/cubit/language/language_cubit.dart';
-import 'package:lang_save/app/screens/home/home_screen.dart';
+import 'package:save_language_hive/app/screens/home/home_screen.dart';
+
+import 'logic/cubit/language/language_cubit.dart';
 
 class MyApp extends StatefulWidget {
    const MyApp({
